@@ -1,0 +1,28 @@
+body{
+    .profile-section {
+        @include section-padding(4em, 3em);
+        @include flex-items (none);
+        @extend .profile-section;
+        flex-direction: column;
+        background-image: url("my-image/bg1.jpg");
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        color: $secondary-color;
+        text-align: center;
+        font-size: 3rem;
+       
+        .profile-image-section {
+            width: 338px;
+            height: 338px;
+            transform: translate(0, 280px);
+            overflow: hidden;
+            border-radius: 50%;
+            border: 14px solid rgba(255, 255, 255, 0.748);
+
+            img {
+                width: 338px;
+            }
+        }
+    }   
+}

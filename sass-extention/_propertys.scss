@@ -1,0 +1,17 @@
+@mixin flex-items ($justify) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+}
+
+@mixin section-padding($top, $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+
+}
+@mixin global-padding($p-top, $p-right, $p-buttom, $p-left) {
+    padding-top: $p-top;
+    padding-right: $p-right;
+    padding-bottom: $p-buttom;
+    padding-left: $p-left;
+}

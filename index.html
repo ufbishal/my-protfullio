@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal's Protfullio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="loader()">
+    <div  id='wrapper'>
+
+        <div class="preloader">
+
+        </div>
+    </div>
+    <div class="nav-section" id="my-nav" id="my-nav2">
+        <div class="nav-logo">
+            <img src="logo/logo.jpg">
+        </div>
+        
+        <ul id="nav-ul">
+            <li class="nav">
+                <div class="nav-effect"></div>
+                <a onclick="closeHamBurger()" href="index.html">home</a>
+            </li>
+
+            <li class="nav">
+                <div class="nav-effect"></div>
+                <a onclick="closeHamBurger()" href="#abt-links">about me</a>
+            </li>
+
+            <li class="nav">
+                <div class="nav-effect"></div>
+                <a onclick="closeHamBurger()" href="#carrer-links">Carrer</a>
+            </li>
+
+            <li class="nav">
+                <div class="nav-effect"></div>
+                <a onclick="closeHamBurger()" href="#project-links">projects</a>
+            </li>
+
+            <li class="nav">
+                <div class="nav-effect"></div>
+                <a onclick="closeHamBurger()" href="#contack-links">contact</a>
+            </li>
+        </ul>
+
+        <div onclick="hamBurger()" class="nav-ham-burgere " id="ham-burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    
+    <div class="profile-section" >
+        <div class="intro-section-one">
+             <h1>hello</h1>
+        </div>
+        <div id="intro-section-two">
+            <!-- <h3>welcome to my protfullio</h3>
+            <h4>i am bishal</h4> -->
+       </div>
+        <div class="profile-image-section">
+            <img src="my-image/my-image.JPG" alt="my image">
+        </div>
+    </div>
+
+    <div onscroll="animation()" class="personal-details-section" id="abt-links">
+        <div class="conatiner">
+        <h2 class="abt-heading">about me</h2>
+        <p class="abt-myself">I’m a web developer living in Dallas Texas.
+             I spend my days with my hands in many different 
+             areas of web development from User Experience, 
+             to front end engineering (HTML, CSS, Bootstrap and 
+             Javascript/Jquery) and visual design.
+        </p>
+
+        <p class="abt-myself">I’m extremely passionate about web development. 
+            I am Always interested in learning  
+            new things in web development. Aside 
+             from web development, I like Photography, 
+             playing Guitar. Also watching & playing 
+             sports.
+        </p>
+           
+           <div class="details-wrapper">
+        <div class="about-wrapper" id="profile-card">
+            <div class="my-profile-section profile-box" >
+                <div class="profile-icon icons-degin">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h2 class="heading-degin">profile</h2>
+                <p class="details-degin">I am a "frontend" developer based in the United States. 
+                                Currently, I'm  focusing on 
+                                degining websites. I will move to "Backend" development soon if 
+                                I get chance to learn while working.
+                </p>
+            </div>
+            <div class="my-strenths-section profile-box">
+                <div class="strenths-icon icons-degin">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h2 class="heading-degin">my strenths</h2>
+                <p class="details-degin">I am <span>self-motivated</span>. Do my work with <span>dedication</span> with a well <span>interpersonal skills</span>.
+                                        Always a <span>multitasker</span> & <span>able to work under pressure</span>.
+                                        Always <span>Proactive</span> while working.
+                </p>
+                    
+            </div>
+            <div class="my-hobbies-section profile-box">
+                <div class="hobbies-icon icons-degin">
+                    <i class="fa-solid fa-chess-king"></i>
+                </div>
+                <h2 class="heading-degin">hobbeis & interests</h2>
+                <p class="details-degin">i like learning new things. i am intersted in learning
+                    more programming language. Most of my hobbeis in sports & Music.
+                    I am good at playing "batminton". Also I play guitar in my free time. 
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="career-section" id="carrer-links">
+        <div class="conatiner">
+            <div class="carrer-heading">
+            <h2>my entire carrer</h2>
+            <hr>
+        </div>
+            <div class="exprence-wrapper">
+                <div class="progress-bar">
+                    <div class="cirle-one progress-circle">
+
+                    </div>
+                    <div class="cirle-two progress-circle">
+
+                    </div>
+                </div>
+                    <div class="experence-details-section">
+                        <div class="first-experence">
+                        <span>Hope It Solution.</span>
+                          <p>- Worked with Html5, css3, JavaScript.</p>
+                          <p>- Development & fixing Bugs.</p>
+                          <p>- Work with other developers as a team.</p>
+
+
+                        </div>
+                        <div class="second-details-experence">
+                        <span>Venture Pulse Org.</span>
+                          <p>- worked with Html5, Css3, Bootstrap, JavaScript & Jquery.</p>
+                          <p>- Fixing bugs, Degining Templates & Managing sites. </p>
+                          <p>- Design and create optimized landing pages in HTML5 and CSS to support company' s marketing.</p>
+                          <p>- Provide web support via email, phone, and other electronic communications.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="my-projects-section" id="project-links">
+        <div class="conatiner">
+            <h2>my latest works & projects</h2>
+            <div class="projects-btn-section">
+                <button class="items-btn active-item-btn">all projects</button>
+                <button class="items-btn">html & css</button>
+                <button class="items-btn">javaScript</button>
+                <button class="items-btn">Bootstrap</button>
+            </div>
+            <div class="projects-items">
+    
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+                <div class="projects-box">
+                    <a href="#" class="project-links">
+                        <div class="item-hover-effect">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <img src="./city.jpg" alt="city image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="contack-section" id="contack-links">
+        <div class="conatiner">
+            <h2>contacts</h2>
+           <h3>get in touch with me</h3>
+        <div class="contack-items">
+            <div class="contack-items-one">
+                <h3>to get connect with me</h3>
+                <div class="contack-wrapper">
+                    <div class="contack-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contack-info">
+                        <a href="tel:+19293925212">+1(929)-392-(5212)</a>
+                    </div>
+                </div>
+
+                <div class="mail-wrapper">
+                    <div class="mail-icon">
+                        <i class="fa-solid fa-message"></i>
+                    </div>
+                    <div class="mail-info">
+                        <a href="mailto:ufbishal@googlemail.com">Ufbishal@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contack-items-two">
+                <h3>send a massage</h3>
+                <form>
+                    <input type="text" placeholder="your name" required>
+                    <input type="email" placeholder="your e-mail" required>
+                    <textarea name="" id="" cols="30" rows="6" placeholder="massage" required></textarea>
+                   <div class="form-btns">
+                       <button class="btn-clear">clear</button>
+                       <button class="btn-send">send massage</button>
+                   </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="conatiner">
+            <h3>find me on </h3>
+        <div class="footer-icon-section">
+
+            <a href="https://www.linkedin.com/in/uf-bishal-7837b9249" target="_blank"> 
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/ufbishal" target="_blank">
+                 <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://twitter.com/ufbishal" target="_blank">
+                 <i class="fa-brands fa-twitter-square"></i>
+            </a>
+
+            <a href="https://www.instagram.com/uf_bishal/" target="_blank">
+                 <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/bishal171" target="_blank">
+                 <i class="fa-brands fa-facebook"></i>
+           </a>
+
+            <a href="https://www.reddit.com/user/One_Carrot_3221/" target="_blank">
+                <i class="fa-brands fa-reddit"></i>
+           </a>
+
+        </div>
+        </div>
+        <div class="footer-credit-section">
+            <span>&copy; all right reserved</span>
+        </div>
+    </footer>
+<script src="script.js">
+</script>
+
+<script src="https://code.jquery.com/jquery-latest.js">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js">
+</script>
+</body>
+</html>

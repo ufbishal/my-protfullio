@@ -1,0 +1,70 @@
+body {
+    .career-section {
+        @include section-padding(12em, 6em);
+        background-color: rgb(27,28,37);
+        color: $secondary-color;
+
+        .carrer-heading {
+            @include flex-items(center);
+            @extend .carrer-heading;
+            flex-direction: column;
+         h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin: 10px;
+            letter-spacing: 3px;
+        }
+         hr {
+            background-color: white;
+            height: 2px;
+            width: 320px;
+            margin-bottom: 4rem;
+        
+        }
+    }
+        .exprence-wrapper {
+            @include flex-items (center);
+            @extend .exprence-wrapper;
+            align-items: flex-start;
+            .progress-bar {
+                @include flex-items(space-between);
+                @extend .progress-bar;
+                flex-direction: column;
+                position: relative;
+                width: 1.5px;
+                height: 224px;
+                content: "";
+                
+                .progress-circle {
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    background-color: $secondary-color;
+                    border:1px solid $secondary-color;
+                    z-index: 3;
+                }
+            }
+            .progress-bar::before {
+                height: 224px;
+                width: 2px;
+                background-color: $secondary-color;
+                content: "";
+                position: absolute;
+            }
+            .experence-details-section {
+                @include global-padding(0px, 0em, 0px, 1.2em );
+                .first-experence {
+                    margin-bottom: 6rem;
+                    height: 110px;
+
+                }
+                .second-details-experence {
+                    height: 280px;
+                }
+            }
+
+        }
+
+    }
+    
+}
