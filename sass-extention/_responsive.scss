@@ -107,12 +107,12 @@
     }
 }
 
-@media (max-width: 375px ) {
+@media (max-width: 390px ) {
     body {
        
         .profile-section {
-            @include global-padding(0em, 10px, 0em, 10px);
-            font-size: 30px;
+            @include global-padding(0em, 2px, 0em, 2px);
+            font-size: 1.5rem;
             
             h1 {
                 margin-top: 70%;
@@ -131,7 +131,9 @@
             .abt-heading {
                 padding-top: 6rem;
             }
-
+            .abt-myself {
+                padding: 0.2em;
+            }
             .details-wrapper {
 
                 .about-wrapper {
@@ -155,10 +157,17 @@
             .exprence-wrapper {
                 margin-left: -20px;
 
+                .progress-bar {
+                    @include global-padding(0em, 0em, 0em, 0em);
+                    height: 360px;
+                }
+                .progress-bar::before {
+                    height: 360px;
+                }
                 .experence-details-section {
-
+                    @include global-padding(0em, 0em, 0em, 1.4em);
                     .first-experence {
-                        margin-bottom: 5.2rem;
+                        margin-bottom: 14rem;
                     }
                 }
             }
@@ -166,7 +175,7 @@
          
         .my-projects-section {
 
-            @include global-padding(2em, 0em, 2em, 0em);
+            @include global-padding(16em, 0em, 2em, 0em);
             .conatiner {
 
                 .projects-items {

@@ -357,12 +357,12 @@ body .career-section .exprence-wrapper .experence-details-section {
 body .career-section .exprence-wrapper .experence-details-section .first-experence {
   margin-bottom: 6rem;
   height: 110px;
-  font-size: 25px;
+  font-size: 1.4rem;
 }
 
 body .career-section .exprence-wrapper .experence-details-section .second-details-experence {
   height: 280px;
-  font-size: 25px;
+  font-size: 1.4rem;
 }
 
 body .my-projects-section {
@@ -1002,13 +1002,13 @@ body footer .footer-credit-section {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   body .profile-section {
     padding-top: 0em;
-    padding-right: 10px;
+    padding-right: 2px;
     padding-bottom: 0em;
-    padding-left: 10px;
-    font-size: 30px;
+    padding-left: 2px;
+    font-size: 1.5rem;
   }
   body .profile-section h1 {
     margin-top: 70%;
@@ -1023,6 +1023,9 @@ body footer .footer-credit-section {
   body .personal-details-section .abt-heading {
     padding-top: 6rem;
   }
+  body .personal-details-section .abt-myself {
+    padding: 0.2em;
+  }
   body .personal-details-section .details-wrapper .about-wrapper .profile-box {
     width: 300px;
   }
@@ -1032,11 +1035,27 @@ body footer .footer-credit-section {
   body .career-section .exprence-wrapper {
     margin-left: -20px;
   }
+  body .career-section .exprence-wrapper .progress-bar {
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    height: 360px;
+  }
+  body .career-section .exprence-wrapper .progress-bar::before {
+    height: 360px;
+  }
+  body .career-section .exprence-wrapper .experence-details-section {
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-left: 1.4em;
+  }
   body .career-section .exprence-wrapper .experence-details-section .first-experence {
-    margin-bottom: 5.2rem;
+    margin-bottom: 14rem;
   }
   body .my-projects-section {
-    padding-top: 2em;
+    padding-top: 16em;
     padding-right: 0em;
     padding-bottom: 2em;
     padding-left: 0em;
