@@ -126,6 +126,11 @@ body .profile-section {
   font-size: 3rem;
 }
 
+body .profile-section .intro-section-one {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
 body .profile-section .profile-image-section {
   width: 338px;
   height: 338px;
@@ -149,7 +154,7 @@ body .personal-details-section {
 }
 
 body .personal-details-section .abt-heading {
-  font-size: 45px;
+  font-size: 4rem;
   margin: 1rem;
   letter-spacing: 3px;
   word-wrap: break-word;
@@ -157,7 +162,7 @@ body .personal-details-section .abt-heading {
 
 body .personal-details-section .abt-myself {
   margin: 8px;
-  opacity: 0;
+  font-size: 25px;
 }
 
 body .personal-details-section .details-wrapper {
@@ -237,6 +242,11 @@ body .personal-details-section .details-wrapper .about-wrapper .profile-box .hea
   text-transform: uppercase;
 }
 
+body .personal-details-section .details-wrapper .about-wrapper .profile-box .details-degin {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 body .personal-details-section .details-wrapper .about-wrapper .profile-box:hover {
   -webkit-transition: .6s ease-out;
   transition: .6s ease-out;
@@ -268,7 +278,7 @@ body .career-section .carrer-heading {
 }
 
 body .career-section .carrer-heading h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   margin: 10px;
   letter-spacing: 3px;
@@ -277,7 +287,7 @@ body .career-section .carrer-heading h2 {
 body .career-section .carrer-heading hr {
   background-color: white;
   height: 2px;
-  width: 320px;
+  width: 600px;
   margin-bottom: 4rem;
 }
 
@@ -306,13 +316,17 @@ body .career-section .exprence-wrapper .progress-bar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: 0em;
+  padding-left: 4em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
   width: 1.5px;
-  height: 224px;
+  height: 228px;
   content: "";
 }
 
@@ -326,7 +340,7 @@ body .career-section .exprence-wrapper .progress-bar .progress-circle {
 }
 
 body .career-section .exprence-wrapper .progress-bar::before {
-  height: 224px;
+  height: 228px;
   width: 2px;
   background-color: rgba(255, 255, 255, 0.877);
   content: "";
@@ -337,16 +351,18 @@ body .career-section .exprence-wrapper .experence-details-section {
   padding-top: 0px;
   padding-right: 0em;
   padding-bottom: 0px;
-  padding-left: 1.2em;
+  padding-left: 2em;
 }
 
 body .career-section .exprence-wrapper .experence-details-section .first-experence {
   margin-bottom: 6rem;
   height: 110px;
+  font-size: 25px;
 }
 
 body .career-section .exprence-wrapper .experence-details-section .second-details-experence {
   height: 280px;
+  font-size: 25px;
 }
 
 body .my-projects-section {
@@ -361,7 +377,7 @@ body .my-projects-section {
 
 body .my-projects-section .conatiner h2 {
   margin-bottom: 2rem;
-  font-size: 3em;
+  font-size: 4rem;
   letter-spacing: 3px;
   color: rgba(255, 255, 255, 0.877);
   text-shadow: 2px 2px 1px #00000067;
@@ -565,6 +581,7 @@ body .contack-section .contack-items .contack-items-one h3 {
 body .contack-section .contack-items .contack-items-one .contack-wrapper {
   letter-spacing: 3px;
   text-align: center;
+  font-size: 25px;
 }
 
 body .contack-section .contack-items .contack-items-one .contack-wrapper i {
@@ -572,10 +589,10 @@ body .contack-section .contack-items .contack-items-one .contack-wrapper i {
   padding-right: 5px;
   padding-bottom: 5px;
   padding-left: 7px;
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
-  line-height: 35px;
+  height: 55px;
+  width: 55px;
+  font-size: 25px;
+  line-height: 45px;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
   border-radius: 50%;
@@ -600,6 +617,7 @@ body .contack-section .contack-items .contack-items-one .mail-wrapper {
   text-align: center;
   margin-top: 10px;
   letter-spacing: 3px;
+  font-size: 25px;
 }
 
 body .contack-section .contack-items .contack-items-one .mail-wrapper i {
@@ -607,10 +625,10 @@ body .contack-section .contack-items .contack-items-one .mail-wrapper i {
   padding-right: 5px;
   padding-bottom: 5px;
   padding-left: 7px;
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
-  line-height: 40px;
+  height: 55px;
+  width: 55px;
+  font-size: 25px;
+  line-height: 45px;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
   border-radius: 50%;
@@ -737,7 +755,7 @@ body footer h3 {
   padding-right: 10px;
   padding-bottom: 15px;
   padding-left: 10px;
-  font-size: 3em;
+  font-size: 4rem;
   letter-spacing: 10px;
 }
 

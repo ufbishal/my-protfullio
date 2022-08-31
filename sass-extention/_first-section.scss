@@ -11,7 +11,11 @@ body{
         color: $secondary-color;
         text-align: center;
         font-size: 3rem;
-       
+        
+        .intro-section-one {
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
         .profile-image-section {
             width: 338px;
             height: 338px;

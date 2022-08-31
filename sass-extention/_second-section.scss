@@ -6,14 +6,14 @@ body {
         color: $secondary-color;
         
         .abt-heading {
-            font-size: 45px;
+            font-size: 4rem;
             margin: 1rem;
             letter-spacing: 3px;
             word-wrap: break-word;
         }
         .abt-myself {
             margin: 8px;
-            opacity: 0;
+            font-size: 25px
         }
 
         .details-wrapper {
@@ -51,6 +51,10 @@ body {
                        margin-bottom: 1rem;
                        text-transform: uppercase;
                       
+                    }
+                    .details-degin {
+                        font-size: 18px;
+                        font-weight: 300;
                     }
                 }
                 .profile-box:hover {

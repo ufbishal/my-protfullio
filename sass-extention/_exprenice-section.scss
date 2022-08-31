@@ -9,7 +9,7 @@ body {
             @extend .carrer-heading;
             flex-direction: column;
          h2 {
-            font-size: 2rem;
+            font-size: 4rem;
             text-align: center;
             margin: 10px;
             letter-spacing: 3px;
@@ -17,7 +17,7 @@ body {
          hr {
             background-color: white;
             height: 2px;
-            width: 320px;
+            width: 600px;
             margin-bottom: 4rem;
         
         }
@@ -28,11 +28,12 @@ body {
             align-items: flex-start;
             .progress-bar {
                 @include flex-items(space-between);
+                @include global-padding(0em, 0em, 0em, 4em);
                 @extend .progress-bar;
                 flex-direction: column;
                 position: relative;
                 width: 1.5px;
-                height: 224px;
+                height: 228px;
                 content: "";
                 
                 .progress-circle {
@@ -45,21 +46,23 @@ body {
                 }
             }
             .progress-bar::before {
-                height: 224px;
+                height: 228px;
                 width: 2px;
                 background-color: $secondary-color;
                 content: "";
                 position: absolute;
             }
             .experence-details-section {
-                @include global-padding(0px, 0em, 0px, 1.2em );
+                @include global-padding(0px, 0em, 0px, 2em);
                 .first-experence {
                     margin-bottom: 6rem;
                     height: 110px;
+                    font-size: 25px;
 
                 }
                 .second-details-experence {
                     height: 280px;
+                    font-size: 25px;
                 }
             }
 
