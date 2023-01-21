@@ -32,7 +32,7 @@ function typing() {
         if((i%28 ===0)) {
     document.getElementById('intro-section-two').innerHTML += '<br>'
         }
-        setTimeout(typing,50);
+        setTimeout(typing,60);
     }
 }
 typing();
