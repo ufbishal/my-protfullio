@@ -22,7 +22,7 @@ function loader() {
 
 //typing animation
 let i =0, writing;
-writing = " Welcome To My Portfolio \n I am Bishal"
+writing = " Welcome To My Portfolio \n  I am Bishal"
 console.log(writing);
 
 function typing() {
