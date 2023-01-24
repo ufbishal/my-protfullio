@@ -22,7 +22,7 @@ function loader() {
 
 //typing animation
 let i =0, writing;
-writing = " Welcome To My Portfolio \n  I am Bishal"
+writing = " Welcome To My Portfolio  \n  I am Bishal"
 console.log(writing);
 
 function typing() {
@@ -32,7 +32,7 @@ function typing() {
         if((i%28 ===0)) {
     document.getElementById('intro-section-two').innerHTML += '<br>'
         }
-        setTimeout(typing,60);
+        setTimeout(typing,50);
     }
 }
 typing();
