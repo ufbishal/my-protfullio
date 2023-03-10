@@ -358,11 +358,13 @@ body .career-section .exprence-wrapper .experence-details-section .first-experen
   margin-bottom: 6rem;
   height: 110px;
   font-size: 1.4rem;
+  word-wrap: break-word;
 }
 
 body .career-section .exprence-wrapper .experence-details-section .second-details-experence {
   height: 280px;
   font-size: 1.4rem;
+  word-wrap: break-word;
 }
 
 body .my-projects-section {
@@ -1002,7 +1004,7 @@ body footer .footer-credit-section {
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 390px) {
   body .profile-section {
     padding-top: 0em;
     padding-right: 2px;
@@ -1018,7 +1020,7 @@ body footer .footer-credit-section {
     height: 250px;
   }
   body .profile-section .profile-image-section img {
-    width: 200px;
+    width: 224px;
   }
   body .personal-details-section .abt-heading {
     padding-top: 6rem;
