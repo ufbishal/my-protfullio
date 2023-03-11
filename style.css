@@ -1004,7 +1004,7 @@ body footer .footer-credit-section {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 600px) {
   body .profile-section {
     padding-top: 0em;
     padding-right: 2px;
