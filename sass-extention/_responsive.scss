@@ -107,7 +107,7 @@
     }
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 410px ) {
     body {
        
         .profile-section {
@@ -167,7 +167,7 @@
                 .experence-details-section {
                     @include global-padding(0em, 0em, 0em, 1.4em);
                     .first-experence {
-                        margin-bottom: 14rem;
+                        margin-bottom: 14.2rem;
                     }
                 }
             }

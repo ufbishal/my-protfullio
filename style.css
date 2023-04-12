@@ -1004,7 +1004,7 @@ body footer .footer-credit-section {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 410px) {
   body .profile-section {
     padding-top: 0em;
     padding-right: 2px;
@@ -1054,7 +1054,7 @@ body footer .footer-credit-section {
     padding-left: 1.4em;
   }
   body .career-section .exprence-wrapper .experence-details-section .first-experence {
-    margin-bottom: 14rem;
+    margin-bottom: 14.2rem;
   }
   body .my-projects-section {
     padding-top: 16em;
